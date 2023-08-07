@@ -2,7 +2,7 @@
 #
 
     .globl  main
-
+f
     .data
 
 # program output text constants

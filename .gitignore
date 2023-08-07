@@ -50,3 +50,6 @@ coverage.xml
 docs/_build/
 
 .DS_Store
+bin.c 
+bin.s
+bin.cpp
