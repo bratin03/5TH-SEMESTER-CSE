@@ -10,7 +10,7 @@
 
 [Compilers](https://www.youtube.com/playlist?list=PLO11h2zbAVtP5nseM6Sqc0g0M6DvD9LEk)
 
-[Compilers Labarotary](https://www.youtube.com/playlist?list=PLO11h2zbAVtPH00XyivKmOWvDziVM51xy)
+[Compilers Laboratory](https://www.youtube.com/playlist?list=PLO11h2zbAVtPH00XyivKmOWvDziVM51xy)
 
 [Computer Organization and Architecture](https://www.youtube.com/playlist?list=PLO11h2zbAVtNaWFleQo2vv86Sr45NS2dD)
 
