@@ -9,3 +9,9 @@
 [Autumn 2021 by Abhijit Das and Arobinda Gupta](https://cse.iitkgp.ac.in/~abhij/course/theory/Algo2/Autumn21/)
 
 [Autumn 2020 by Abhijit Das and Arobinda Gupta](https://cse.iitkgp.ac.in/~abhij/course/theory/Algo2/Autumn20/)
+
+[CLRS Solutions 1](https://sites.math.rutgers.edu/~ajl213/CLRS/CLRS.html)
+
+[CLRS Solutions 2](https://walkccc.me/CLRS/)
+
+[CLRS Solutions 3](https://github.com/gzc/CLRS)
