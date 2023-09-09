@@ -15,3 +15,7 @@
 [Spring 2021 by Siddharth Barman and Arindam Khan](https://www.csa.iisc.ac.in/~arindamkhan/courses/RandAlgo21/RandAlgo.html)
 
 [Spring 2016 by Arnab Bhattacharyya and Deeparnab Chakrabarty](https://www.cs.dartmouth.edu/~deepc/Courses/S16/E0234.html)
+
+Notes:
+
+[Aspens](https://www.cs.yale.edu/homes/aspnes/classes/469/notes.pdf)
