@@ -6,37 +6,60 @@ Student Information:
 - Somya Kumar (Roll Number - 21CS30050)
 */
 
-void find_pythagorean_triples(int limit, int triples[100][3])
+int MAX_SIZE = 100;
+
+int stack[MAX_SIZE];
+int top = -1;
+
+void push(int item)
 {
-    int count = 0;
-    int a, b, c;
-    for (a = 1; a < limit; a++)
+    if (top == MAX_SIZE - 1)
     {
-        for (b = a + 1; b < limit; b++)
-        {
-            for (c = b + 1; c < limit; c++)
-            {
-                if (a * a + b * b == c * c)
-                {
-                    if (count < limit)
-                    {
-                        triples[count][0] = a;
-                        triples[count][1] = b;
-                        triples[count][2] = c;
-                        count++;
-                    }
-                }
-            }
-        }
+        return;
     }
+    stack[++top] = item;
+}
+
+int pop()
+{
+    if (top == -1)
+    {
+        return -1;
+    }
+    return stack[top--];
+}
+
+int peek()
+{
+    if (top == -1)
+    {
+        return -1;
+    }
+    return stack[top];
+}
+
+int isEmpty()
+{
+    if (top == -1)
+        return 1;
+    return 0;
+}
+
+int isFull()
+{
+    if (top == MAX_SIZE - 1)
+        return 1;
+    return 0;
 }
 
 int main()
 {
-    int limit = 30;
-    int triples[100][3];
-
-    find_pythagorean_triples(limit, triples);
-
-    return 0;
+    push(10);
+    push(20);
+    push(30);
+    int empty = isEmpty();
+    int full = isFull();
+    int top_element = peek();
+    pop();
+    int top_element_after_pop = peek();
 }

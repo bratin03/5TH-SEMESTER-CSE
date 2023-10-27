@@ -6,60 +6,24 @@ Student Information:
 - Somya Kumar (Roll Number - 21CS30050)
 */
 
-int MAX_SIZE = 100;
-
-int stack[MAX_SIZE];
-int top = -1;
-
-void push(int item)
-{
-    if (top == MAX_SIZE - 1)
-    {
-        return;
-    }
-    stack[++top] = item;
-}
-
-int pop()
-{
-    if (top == -1)
-    {
-        return -1;
-    }
-    return stack[top--];
-}
-
-int peek()
-{
-    if (top == -1)
-    {
-        return -1;
-    }
-    return stack[top];
-}
-
-int isEmpty()
-{
-    if (top == -1)
-        return 1;
-    return 0;
-}
-
-int isFull()
-{
-    if (top == MAX_SIZE - 1)
-        return 1;
-    return 0;
-}
+void foo(int i);
 
 int main()
 {
-    push(10);
-    push(20);
-    push(30);
-    int empty = isEmpty();
-    int full = isFull();
-    int top_element = peek();
-    pop();
-    int top_element_after_pop = peek();
+    // Checking different types of rules
+    int a = 2;
+    int *ptr = &a;
+    int **ptr2 = &ptr;
+    float b = 3.0;
+    a = (int)b;
+    b = (float)a;
+    char c1 = 'a';
+    float float_arr_2d[20][50];  
+    a=b;
+}
+
+void foo(int i)
+{
+    int a = 2;
+    i = i << a;
 }
