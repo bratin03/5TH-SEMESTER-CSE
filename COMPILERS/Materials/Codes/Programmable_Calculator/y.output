@@ -1,0 +1,313 @@
+Grammar
+
+    0 $accept: Line $end
+
+    1 Line: Line Statement '\n'
+    2     | Statement '\n'
+
+    3 Statement: ID '=' E
+    4          | ID
+
+    5 E: E '+' E
+    6  | E '-' E
+    7  | E '*' E
+    8  | E '/' E
+    9  | '-' E
+   10  | '(' E ')'
+   11  | NUM
+   12  | ID
+
+
+Terminals, with rules where they appear
+
+    $end (0) 0
+    '\n' (10) 1 2
+    '(' (40) 10
+    ')' (41) 10
+    '*' (42) 7
+    '+' (43) 5
+    '-' (45) 6 9
+    '/' (47) 8
+    '=' (61) 3
+    error (256)
+    NUM <val> (258) 11
+    ID <id> (259) 3 4 12
+    UMINUS (260)
+
+
+Nonterminals, with rules where they appear
+
+    $accept (14)
+        on left: 0
+    Line (15)
+        on left: 1 2
+        on right: 0 1
+    Statement (16)
+        on left: 3 4
+        on right: 1 2
+    E <val> (17)
+        on left: 5 6 7 8 9 10 11 12
+        on right: 3 5 6 7 8 9 10
+
+
+State 0
+
+    0 $accept: . Line $end
+
+    ID  shift, and go to state 1
+
+    Line       go to state 2
+    Statement  go to state 3
+
+
+State 1
+
+    3 Statement: ID . '=' E
+    4          | ID .
+
+    '='  shift, and go to state 4
+
+    $default  reduce using rule 4 (Statement)
+
+
+State 2
+
+    0 $accept: Line . $end
+    1 Line: Line . Statement '\n'
+
+    $end  shift, and go to state 5
+    ID    shift, and go to state 1
+
+    Statement  go to state 6
+
+
+State 3
+
+    2 Line: Statement . '\n'
+
+    '\n'  shift, and go to state 7
+
+
+State 4
+
+    3 Statement: ID '=' . E
+
+    NUM  shift, and go to state 8
+    ID   shift, and go to state 9
+    '-'  shift, and go to state 10
+    '('  shift, and go to state 11
+
+    E  go to state 12
+
+
+State 5
+
+    0 $accept: Line $end .
+
+    $default  accept
+
+
+State 6
+
+    1 Line: Line Statement . '\n'
+
+    '\n'  shift, and go to state 13
+
+
+State 7
+
+    2 Line: Statement '\n' .
+
+    $default  reduce using rule 2 (Line)
+
+
+State 8
+
+   11 E: NUM .
+
+    $default  reduce using rule 11 (E)
+
+
+State 9
+
+   12 E: ID .
+
+    $default  reduce using rule 12 (E)
+
+
+State 10
+
+    9 E: '-' . E
+
+    NUM  shift, and go to state 8
+    ID   shift, and go to state 9
+    '-'  shift, and go to state 10
+    '('  shift, and go to state 11
+
+    E  go to state 14
+
+
+State 11
+
+   10 E: '(' . E ')'
+
+    NUM  shift, and go to state 8
+    ID   shift, and go to state 9
+    '-'  shift, and go to state 10
+    '('  shift, and go to state 11
+
+    E  go to state 15
+
+
+State 12
+
+    3 Statement: ID '=' E .
+    5 E: E . '+' E
+    6  | E . '-' E
+    7  | E . '*' E
+    8  | E . '/' E
+
+    '+'  shift, and go to state 16
+    '-'  shift, and go to state 17
+    '*'  shift, and go to state 18
+    '/'  shift, and go to state 19
+
+    $default  reduce using rule 3 (Statement)
+
+
+State 13
+
+    1 Line: Line Statement '\n' .
+
+    $default  reduce using rule 1 (Line)
+
+
+State 14
+
+    5 E: E . '+' E
+    6  | E . '-' E
+    7  | E . '*' E
+    8  | E . '/' E
+    9  | '-' E .
+
+    $default  reduce using rule 9 (E)
+
+
+State 15
+
+    5 E: E . '+' E
+    6  | E . '-' E
+    7  | E . '*' E
+    8  | E . '/' E
+   10  | '(' E . ')'
+
+    '+'  shift, and go to state 16
+    '-'  shift, and go to state 17
+    '*'  shift, and go to state 18
+    '/'  shift, and go to state 19
+    ')'  shift, and go to state 20
+
+
+State 16
+
+    5 E: E '+' . E
+
+    NUM  shift, and go to state 8
+    ID   shift, and go to state 9
+    '-'  shift, and go to state 10
+    '('  shift, and go to state 11
+
+    E  go to state 21
+
+
+State 17
+
+    6 E: E '-' . E
+
+    NUM  shift, and go to state 8
+    ID   shift, and go to state 9
+    '-'  shift, and go to state 10
+    '('  shift, and go to state 11
+
+    E  go to state 22
+
+
+State 18
+
+    7 E: E '*' . E
+
+    NUM  shift, and go to state 8
+    ID   shift, and go to state 9
+    '-'  shift, and go to state 10
+    '('  shift, and go to state 11
+
+    E  go to state 23
+
+
+State 19
+
+    8 E: E '/' . E
+
+    NUM  shift, and go to state 8
+    ID   shift, and go to state 9
+    '-'  shift, and go to state 10
+    '('  shift, and go to state 11
+
+    E  go to state 24
+
+
+State 20
+
+   10 E: '(' E ')' .
+
+    $default  reduce using rule 10 (E)
+
+
+State 21
+
+    5 E: E . '+' E
+    5  | E '+' E .
+    6  | E . '-' E
+    7  | E . '*' E
+    8  | E . '/' E
+
+    '*'  shift, and go to state 18
+    '/'  shift, and go to state 19
+
+    $default  reduce using rule 5 (E)
+
+
+State 22
+
+    5 E: E . '+' E
+    6  | E . '-' E
+    6  | E '-' E .
+    7  | E . '*' E
+    8  | E . '/' E
+
+    '*'  shift, and go to state 18
+    '/'  shift, and go to state 19
+
+    $default  reduce using rule 6 (E)
+
+
+State 23
+
+    5 E: E . '+' E
+    6  | E . '-' E
+    7  | E . '*' E
+    7  | E '*' E .
+    8  | E . '/' E
+
+    $default  reduce using rule 7 (E)
+
+
+State 24
+
+    5 E: E . '+' E
+    6  | E . '-' E
+    7  | E . '*' E
+    8  | E . '/' E
+    8  | E '/' E .
+
+    $default  reduce using rule 8 (E)
