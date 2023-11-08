@@ -1,0 +1,365 @@
+All functions
+6
+printStr
+printInt
+readInt
+printFlt
+readFlt
+main
+
+SYMBOL TABLES:
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: Global                                    Parent Symbol Table: NULL
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+printStr                    |   function              |   0             |   0             |                      |   printStr
+printInt                    |   function              |   0             |   0             |                      |   printInt
+readInt                     |   function              |   0             |   0             |                      |   readInt
+printFlt                    |   function              |   0             |   0             |                      |   printFlt
+readFlt                     |   function              |   0             |   0             |                      |   readFlt
+main                        |   function              |   0             |   0             |                      |   main
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: printStr                                  Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+p.printStr                  |   ptr(char)             |   8             |   0             |                      |   null
+return                      |   int                   |   4             |   8             |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: printInt                                  Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+n.printInt                  |   int                   |   4             |   0             |                      |   null
+return                      |   int                   |   4             |   4             |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: readInt                                   Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+eP.readInt                  |   ptr(int)              |   8             |   0             |                      |   null
+return                      |   int                   |   4             |   8             |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: printFlt                                  Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+n.printFlt                  |   float                 |   4             |   0             |                      |   null
+return                      |   int                   |   4             |   4             |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: readFlt                                   Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+eP.readFlt                  |   ptr(float)            |   8             |   0             |                      |   null
+return                      |   int                   |   4             |   8             |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: main                                      Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+return                      |   int                   |   4             |   0             |                      |   null
+t_1                         |   ptr(char)             |   8             |   4             |   "\nThis is for Integer\n" |   null
+t_2                         |   int                   |   4             |   12            |                      |   null
+int_a.main                  |   int                   |   4             |   16            |                      |   null
+int_b.main                  |   int                   |   4             |   20            |                      |   null
+int_c.main                  |   int                   |   4             |   24            |                      |   null
+t_3                         |   int                   |   4             |   28            |   3                  |   null
+t_4                         |   int                   |   4             |   32            |                      |   null
+t_5                         |   int                   |   4             |   36            |   6                  |   null
+t_6                         |   int                   |   4             |   40            |                      |   null
+t_7                         |   int                   |   4             |   44            |   4                  |   null
+t_8                         |   int                   |   4             |   48            |                      |   null
+t_9                         |   ptr(char)             |   8             |   52            |   "int_a = "         |   null
+t_10                        |   int                   |   4             |   60            |                      |   null
+t_11                        |   int                   |   4             |   64            |                      |   null
+t_12                        |   ptr(char)             |   8             |   68            |   "\nint_b = "       |   null
+t_13                        |   int                   |   4             |   76            |                      |   null
+t_14                        |   int                   |   4             |   80            |                      |   null
+t_15                        |   ptr(char)             |   8             |   84            |   "\nint_c = "       |   null
+t_16                        |   int                   |   4             |   92            |                      |   null
+t_17                        |   int                   |   4             |   96            |                      |   null
+t_18                        |   int                   |   4             |   100           |                      |   null
+t_19                        |   ptr(char)             |   8             |   104           |   "\nc+;\n"          |   null
+t_20                        |   int                   |   4             |   112           |                      |   null
+t_21                        |   ptr(char)             |   8             |   116           |   "int_c = "         |   null
+t_22                        |   int                   |   4             |   124           |                      |   null
+t_23                        |   int                   |   4             |   128           |                      |   null
+t_24                        |   ptr(char)             |   8             |   132           |   "\n"               |   null
+t_25                        |   int                   |   4             |   140           |                      |   null
+t_26                        |   ptr(char)             |   8             |   144           |   "int_c = int_a + int_b\n" |   null
+t_27                        |   int                   |   4             |   152           |                      |   null
+t_28                        |   int                   |   4             |   156           |                      |   null
+t_29                        |   int                   |   4             |   160           |                      |   null
+t_30                        |   ptr(char)             |   8             |   164           |   "int_c = "         |   null
+t_31                        |   int                   |   4             |   172           |                      |   null
+t_32                        |   int                   |   4             |   176           |                      |   null
+t_33                        |   ptr(char)             |   8             |   180           |   "\n"               |   null
+t_34                        |   int                   |   4             |   188           |                      |   null
+t_35                        |   ptr(char)             |   8             |   192           |   "int_c = -int_b\n" |   null
+t_36                        |   int                   |   4             |   200           |                      |   null
+t_37                        |   int                   |   4             |   204           |                      |   null
+t_38                        |   int                   |   4             |   208           |                      |   null
+t_39                        |   ptr(char)             |   8             |   212           |   "int_c = "         |   null
+t_40                        |   int                   |   4             |   220           |                      |   null
+t_41                        |   int                   |   4             |   224           |                      |   null
+t_42                        |   ptr(char)             |   8             |   228           |   "\n"               |   null
+t_43                        |   int                   |   4             |   236           |                      |   null
+t_48                        |   ptr(char)             |   8             |   240           |   "\nThis is for Float\n" |   null
+t_49                        |   int                   |   4             |   248           |                      |   null
+float_a.main                |   float                 |   4             |   252           |                      |   null
+float_b.main                |   float                 |   4             |   256           |                      |   null
+float_c.main                |   float                 |   4             |   260           |                      |   null
+t_50                        |   float                 |   4             |   264           |   3                  |   null
+t_51                        |   float                 |   4             |   268           |                      |   null
+t_52                        |   float                 |   4             |   272           |   6.5                |   null
+t_53                        |   float                 |   4             |   276           |                      |   null
+t_54                        |   float                 |   4             |   280           |   4                  |   null
+t_55                        |   float                 |   4             |   284           |                      |   null
+t_56                        |   ptr(char)             |   8             |   288           |   "float_a = "       |   null
+t_57                        |   int                   |   4             |   296           |                      |   null
+t_58                        |   int                   |   4             |   300           |                      |   null
+t_59                        |   ptr(char)             |   8             |   304           |   "\nfloat_b = "     |   null
+t_60                        |   int                   |   4             |   312           |                      |   null
+t_61                        |   int                   |   4             |   316           |                      |   null
+t_62                        |   ptr(char)             |   8             |   320           |   "\nfloat_c = "     |   null
+t_63                        |   int                   |   4             |   328           |                      |   null
+t_64                        |   int                   |   4             |   332           |                      |   null
+t_65                        |   ptr(char)             |   8             |   336           |   "\n"               |   null
+t_66                        |   int                   |   4             |   344           |                      |   null
+t_67                        |   ptr(char)             |   8             |   348           |   "float_c = float_a + float_b\n" |   null
+t_68                        |   int                   |   4             |   356           |                      |   null
+t_69                        |   float                 |   4             |   360           |                      |   null
+t_70                        |   float                 |   4             |   364           |                      |   null
+t_71                        |   ptr(char)             |   8             |   368           |   "float_c = "       |   null
+t_72                        |   int                   |   4             |   376           |                      |   null
+t_73                        |   int                   |   4             |   380           |                      |   null
+t_74                        |   ptr(char)             |   8             |   384           |   "\n"               |   null
+t_75                        |   int                   |   4             |   392           |                      |   null
+t_76                        |   ptr(char)             |   8             |   396           |   "float_c = float_a * float_b\n" |   null
+t_77                        |   int                   |   4             |   404           |                      |   null
+t_78                        |   float                 |   4             |   408           |                      |   null
+t_79                        |   float                 |   4             |   412           |                      |   null
+t_80                        |   ptr(char)             |   8             |   416           |   "float_c = "       |   null
+t_81                        |   int                   |   4             |   424           |                      |   null
+t_82                        |   int                   |   4             |   428           |                      |   null
+t_83                        |   ptr(char)             |   8             |   432           |   "\n"               |   null
+t_84                        |   int                   |   4             |   440           |                      |   null
+t_85                        |   ptr(char)             |   8             |   444           |   "float_c = float_a / float_b\n" |   null
+t_86                        |   int                   |   4             |   452           |                      |   null
+t_87                        |   float                 |   4             |   456           |                      |   null
+t_88                        |   float                 |   4             |   460           |                      |   null
+t_89                        |   ptr(char)             |   8             |   464           |   "float_c = "       |   null
+t_90                        |   int                   |   4             |   472           |                      |   null
+t_91                        |   int                   |   4             |   476           |                      |   null
+t_92                        |   ptr(char)             |   8             |   480           |   "\n"               |   null
+t_93                        |   int                   |   4             |   488           |                      |   null
+t_94                        |   ptr(char)             |   8             |   492           |   "float_c = float_a - float_b\n" |   null
+t_95                        |   int                   |   4             |   500           |                      |   null
+t_96                        |   float                 |   4             |   504           |                      |   null
+t_97                        |   float                 |   4             |   508           |                      |   null
+t_98                        |   ptr(char)             |   8             |   512           |   "float_c = "       |   null
+t_99                        |   int                   |   4             |   520           |                      |   null
+t_100                       |   int                   |   4             |   524           |                      |   null
+t_101                       |   ptr(char)             |   8             |   528           |   "\n"               |   null
+t_102                       |   int                   |   4             |   536           |                      |   null
+t_103                       |   ptr(char)             |   8             |   540           |   "float_c = -float_b\n" |   null
+t_104                       |   int                   |   4             |   548           |                      |   null
+t_105                       |   float                 |   4             |   552           |                      |   null
+t_106                       |   float                 |   4             |   556           |                      |   null
+t_107                       |   ptr(char)             |   8             |   560           |   "float_c = "       |   null
+t_108                       |   int                   |   4             |   568           |                      |   null
+t_109                       |   int                   |   4             |   572           |                      |   null
+t_110                       |   ptr(char)             |   8             |   576           |   "\n"               |   null
+t_111                       |   int                   |   4             |   584           |                      |   null
+t_112                       |   int                   |   4             |   588           |   0                  |   null
+t_44                        |   ptr(char)             |   8             |   592           |   "int_a is equal to int_b\n" |   null
+t_45                        |   int                   |   4             |   600           |                      |   null
+t_46                        |   ptr(char)             |   8             |   604           |   "int_a is not equal to int_b\n" |   null
+t_47                        |   int                   |   4             |   612           |                      |   null
+======================================================================================================================================================
+
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+THREE ADDRESS CODE (TAC): 
+======================================================================================================================================================
+
+0: function main: 
+1:      t_1 = "\nThis is for Integer\n"
+2:      param t_1
+3:      t_2 = call printStr, 1
+4:      t_3 = 3
+5:      int_a.main = t_3
+6:      t_5 = 6
+7:      int_b.main = t_5
+8:      t_7 = 4
+9:      int_c.main = t_7
+10:      t_9 = "int_a = "
+11:      param t_9
+12:      t_10 = call printStr, 1
+13:      param int_a.main
+14:      t_11 = call printInt, 1
+15:      t_12 = "\nint_b = "
+16:      param t_12
+17:      t_13 = call printStr, 1
+18:      param int_b.main
+19:      t_14 = call printInt, 1
+20:      t_15 = "\nint_c = "
+21:      param t_15
+22:      t_16 = call printStr, 1
+23:      param int_c.main
+24:      t_17 = call printInt, 1
+25:      t_18 = int_c.main
+26:      int_c.main = int_c.main + 1
+27:      t_19 = "\nc+;\n"
+28:      param t_19
+29:      t_20 = call printStr, 1
+30:      t_21 = "int_c = "
+31:      param t_21
+32:      t_22 = call printStr, 1
+33:      param int_c.main
+34:      t_23 = call printInt, 1
+35:      t_24 = "\n"
+36:      param t_24
+37:      t_25 = call printStr, 1
+38:      t_26 = "int_c = int_a + int_b\n"
+39:      param t_26
+40:      t_27 = call printStr, 1
+41:      t_28 = int_a.main + int_b.main
+42:      int_c.main = t_28
+43:      t_30 = "int_c = "
+44:      param t_30
+45:      t_31 = call printStr, 1
+46:      param int_c.main
+47:      t_32 = call printInt, 1
+48:      t_33 = "\n"
+49:      param t_33
+50:      t_34 = call printStr, 1
+51:      t_35 = "int_c = -int_b\n"
+52:      param t_35
+53:      t_36 = call printStr, 1
+54:      t_37 = -int_b.main
+55:      int_c.main = t_37
+56:      t_39 = "int_c = "
+57:      param t_39
+58:      t_40 = call printStr, 1
+59:      param int_c.main
+60:      t_41 = call printInt, 1
+61:      t_42 = "\n"
+62:      param t_42
+63:      t_43 = call printStr, 1
+64:      if int_a.main == int_b.main goto 66
+65:      goto 71
+
+66: Label main$$0: 
+67:      t_44 = "int_a is equal to int_b\n"
+68:      param t_44
+69:      t_45 = call printStr, 1
+70:      goto 75
+
+71: Label main$$1: 
+72:      t_46 = "int_a is not equal to int_b\n"
+73:      param t_46
+74:      t_47 = call printStr, 1
+75:      t_48 = "\nThis is for Float\n"
+76:      param t_48
+77:      t_49 = call printStr, 1
+78:      t_50 = 3
+79:      float_a.main = t_50
+80:      t_52 = 6.5
+81:      float_b.main = t_52
+82:      t_54 = 4
+83:      float_c.main = t_54
+84:      t_56 = "float_a = "
+85:      param t_56
+86:      t_57 = call printStr, 1
+87:      param float_a.main
+88:      t_58 = call printFlt, 1
+89:      t_59 = "\nfloat_b = "
+90:      param t_59
+91:      t_60 = call printStr, 1
+92:      param float_b.main
+93:      t_61 = call printFlt, 1
+94:      t_62 = "\nfloat_c = "
+95:      param t_62
+96:      t_63 = call printStr, 1
+97:      param float_c.main
+98:      t_64 = call printFlt, 1
+99:      t_65 = "\n"
+100:      param t_65
+101:      t_66 = call printStr, 1
+102:      t_67 = "float_c = float_a + float_b\n"
+103:      param t_67
+104:      t_68 = call printStr, 1
+105:      t_69 = float_a.main + float_b.main
+106:      float_c.main = t_69
+107:      t_71 = "float_c = "
+108:      param t_71
+109:      t_72 = call printStr, 1
+110:      param float_c.main
+111:      t_73 = call printFlt, 1
+112:      t_74 = "\n"
+113:      param t_74
+114:      t_75 = call printStr, 1
+115:      t_76 = "float_c = float_a * float_b\n"
+116:      param t_76
+117:      t_77 = call printStr, 1
+118:      t_78 = float_a.main * float_b.main
+119:      float_c.main = t_78
+120:      t_80 = "float_c = "
+121:      param t_80
+122:      t_81 = call printStr, 1
+123:      param float_c.main
+124:      t_82 = call printFlt, 1
+125:      t_83 = "\n"
+126:      param t_83
+127:      t_84 = call printStr, 1
+128:      t_85 = "float_c = float_a / float_b\n"
+129:      param t_85
+130:      t_86 = call printStr, 1
+131:      t_87 = float_a.main / float_b.main
+132:      float_c.main = t_87
+133:      t_89 = "float_c = "
+134:      param t_89
+135:      t_90 = call printStr, 1
+136:      param float_c.main
+137:      t_91 = call printFlt, 1
+138:      t_92 = "\n"
+139:      param t_92
+140:      t_93 = call printStr, 1
+141:      t_94 = "float_c = float_a - float_b\n"
+142:      param t_94
+143:      t_95 = call printStr, 1
+144:      t_96 = float_a.main - float_b.main
+145:      float_c.main = t_96
+146:      t_98 = "float_c = "
+147:      param t_98
+148:      t_99 = call printStr, 1
+149:      param float_c.main
+150:      t_100 = call printFlt, 1
+151:      t_101 = "\n"
+152:      param t_101
+153:      t_102 = call printStr, 1
+154:      t_103 = "float_c = -float_b\n"
+155:      param t_103
+156:      t_104 = call printStr, 1
+157:      t_105 = -float_b.main
+158:      float_c.main = t_105
+159:      t_107 = "float_c = "
+160:      param t_107
+161:      t_108 = call printStr, 1
+162:      param float_c.main
+163:      t_109 = call printFlt, 1
+164:      t_110 = "\n"
+165:      param t_110
+166:      t_111 = call printStr, 1
+167:      t_112 = 0
+168:      return t_112
+======================================================================================================================================================
