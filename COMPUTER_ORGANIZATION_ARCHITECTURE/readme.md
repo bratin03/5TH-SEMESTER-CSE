@@ -19,3 +19,8 @@ Shamik Sural Link 2](http://www.facweb.iitkgp.ac.in/~shamik/autumn2022/coa/coa20
 ### Lectures
 
 [NPTEL](https://nptel.ac.in/courses/106105163)
+
+
+### Questions
+
+[Link](https://www.selfstudys.com/gate/computer-science-engineering/online/exam/2-computer-organization-architecture)
