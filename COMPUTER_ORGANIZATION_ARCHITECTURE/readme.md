@@ -12,10 +12,6 @@ Shamik Sural Link 2](http://www.facweb.iitkgp.ac.in/~shamik/autumn2022/coa/coa20
 
 [By Debdeep Mukhopadhyay](https://cse.iitkgp.ac.in/~debdeep/courses_iitkgp/COA2011/index.htm)
 
-#### Notes
-
-[Running Notes](https://docs.google.com/document/d/1Dg4N-oSSIJZ17jpA7eTsD7Q8Ws1tbvDeewcQWtN-qUU/edit?usp=sharing)
-
 ### Lectures
 
 [NPTEL](https://nptel.ac.in/courses/106105163)
@@ -24,3 +20,7 @@ Shamik Sural Link 2](http://www.facweb.iitkgp.ac.in/~shamik/autumn2022/coa/coa20
 ### Questions
 
 [Link](https://www.selfstudys.com/gate/computer-science-engineering/online/exam/2-computer-organization-architecture)
+
+
+### GATE CSE QUESTIONS 
+[Link](https://www.geeksforgeeks.org/gate-corner-2-gq/)
