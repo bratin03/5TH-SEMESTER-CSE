@@ -1,0 +1,295 @@
+All functions
+10
+printStr
+printInt
+readInt
+printFlt
+readFlt
+min
+max
+gcdAlgorithm
+guessing_game
+main
+
+SYMBOL TABLES:
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: Global                                    Parent Symbol Table: NULL
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+printStr                    |   function              |   0             |   0             |                      |   printStr
+printInt                    |   function              |   0             |   0             |                      |   printInt
+readInt                     |   function              |   0             |   0             |                      |   readInt
+printFlt                    |   function              |   0             |   0             |                      |   printFlt
+readFlt                     |   function              |   0             |   0             |                      |   readFlt
+min                         |   function              |   0             |   0             |                      |   min
+max                         |   function              |   0             |   0             |                      |   max
+gcdAlgorithm                |   function              |   0             |   0             |                      |   gcdAlgorithm
+guessing_game               |   function              |   0             |   0             |                      |   guessing_game
+main                        |   function              |   0             |   0             |                      |   main
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: printStr                                  Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+p.printStr                  |   ptr(char)             |   8             |   0             |                      |   null
+return                      |   int                   |   4             |   8             |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: printInt                                  Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+n.printInt                  |   int                   |   4             |   0             |                      |   null
+return                      |   int                   |   4             |   4             |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: readInt                                   Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+eP.readInt                  |   ptr(int)              |   8             |   0             |                      |   null
+return                      |   int                   |   4             |   8             |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: printFlt                                  Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+n.printFlt                  |   float                 |   4             |   0             |                      |   null
+return                      |   int                   |   4             |   4             |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: readFlt                                   Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+eP.readFlt                  |   ptr(float)            |   8             |   0             |                      |   null
+return                      |   int                   |   4             |   8             |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: min                                       Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+x.min                       |   int                   |   4             |   0             |                      |   null
+y.min                       |   int                   |   4             |   4             |                      |   null
+return                      |   int                   |   4             |   8             |                      |   null
+ans.min                     |   int                   |   4             |   12            |                      |   null
+t_1                         |   int                   |   4             |   16            |                      |   null
+t_2                         |   int                   |   4             |   20            |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: max                                       Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+x.max                       |   int                   |   4             |   0             |                      |   null
+y.max                       |   int                   |   4             |   4             |                      |   null
+return                      |   int                   |   4             |   8             |                      |   null
+ans.max                     |   int                   |   4             |   12            |                      |   null
+t_3                         |   int                   |   4             |   16            |                      |   null
+t_4                         |   int                   |   4             |   20            |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: gcdAlgorithm                              Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+a.gcdAlgorithm              |   int                   |   4             |   0             |                      |   null
+b.gcdAlgorithm              |   int                   |   4             |   4             |                      |   null
+return                      |   int                   |   4             |   8             |                      |   null
+t_5                         |   int                   |   4             |   12            |   0                  |   null
+t_6                         |   int                   |   4             |   16            |                      |   null
+t_7                         |   int                   |   4             |   20            |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: guessing_game                             Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+a.guessing_game             |   int                   |   4             |   0             |                      |   null
+b.guessing_game             |   int                   |   4             |   4             |                      |   null
+return                      |   int                   |   4             |   8             |                      |   null
+count.guessing_game         |   int                   |   4             |   12            |   1                  |   null
+t_8                         |   int                   |   4             |   16            |   1                  |   null
+min_num.guessing_game       |   int                   |   4             |   20            |                      |   null
+t_9                         |   int                   |   4             |   24            |                      |   null
+max_num.guessing_game       |   int                   |   4             |   28            |                      |   null
+t_10                        |   int                   |   4             |   32            |                      |   null
+gcd.guessing_game           |   int                   |   4             |   36            |                      |   null
+t_11                        |   int                   |   4             |   40            |                      |   null
+guess.guessing_game         |   int                   |   4             |   44            |                      |   null
+t_12                        |   int                   |   4             |   48            |                      |   null
+user_input.guessing_game    |   int                   |   4             |   52            |                      |   null
+t_13                        |   ptr(char)             |   8             |   56            |   "Guess a number between " |   null
+t_14                        |   int                   |   4             |   64            |                      |   null
+t_15                        |   int                   |   4             |   68            |                      |   null
+t_16                        |   ptr(char)             |   8             |   72            |   " and "            |   null
+t_17                        |   int                   |   4             |   80            |                      |   null
+t_18                        |   int                   |   4             |   84            |                      |   null
+t_19                        |   ptr(char)             |   8             |   88            |   ":\n"              |   null
+t_20                        |   int                   |   4             |   96            |                      |   null
+t_21                        |   ptr(int)              |   8             |   100           |                      |   null
+t_22                        |   int                   |   4             |   108           |                      |   null
+t_31                        |   int                   |   4             |   112           |                      |   null
+t_23                        |   ptr(char)             |   8             |   116           |   "Too low! Guess again:\n" |   null
+t_24                        |   int                   |   4             |   124           |                      |   null
+t_25                        |   ptr(int)              |   8             |   128           |                      |   null
+t_26                        |   int                   |   4             |   136           |                      |   null
+t_27                        |   ptr(char)             |   8             |   140           |   "Too high! Guess again:\n" |   null
+t_28                        |   int                   |   4             |   148           |                      |   null
+t_29                        |   ptr(int)              |   8             |   152           |                      |   null
+t_30                        |   int                   |   4             |   160           |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: main                                      Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+return                      |   int                   |   4             |   0             |                      |   null
+x.main                      |   int                   |   4             |   4             |                      |   null
+y.main                      |   int                   |   4             |   8             |                      |   null
+t_32                        |   ptr(char)             |   8             |   12            |   "\nEnter a number(Lower Bound): " |   null
+t_33                        |   int                   |   4             |   20            |                      |   null
+t_34                        |   ptr(int)              |   8             |   24            |                      |   null
+t_35                        |   int                   |   4             |   32            |                      |   null
+t_36                        |   ptr(char)             |   8             |   36            |   "\nEnter a number(Upper Bound): " |   null
+t_37                        |   int                   |   4             |   44            |                      |   null
+t_38                        |   ptr(int)              |   8             |   48            |                      |   null
+t_39                        |   int                   |   4             |   56            |                      |   null
+attempts.main               |   int                   |   4             |   60            |                      |   null
+t_40                        |   int                   |   4             |   64            |                      |   null
+t_41                        |   ptr(char)             |   8             |   68            |   "You guessed the number in " |   null
+t_42                        |   int                   |   4             |   76            |                      |   null
+t_43                        |   int                   |   4             |   80            |                      |   null
+t_44                        |   ptr(char)             |   8             |   84            |   " attempt(s)!\n"   |   null
+t_45                        |   int                   |   4             |   92            |                      |   null
+t_46                        |   int                   |   4             |   96            |   0                  |   null
+======================================================================================================================================================
+
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+THREE ADDRESS CODE (TAC): 
+======================================================================================================================================================
+
+0: function min: 
+1:      if x.min > y.min goto 3
+2:      goto 5
+3:      t_1 = y.min
+4:      goto 6
+5:      t_1 = x.min
+6:      ans.min = t_1
+7:      return ans.min
+
+9: function max: 
+10:      if x.max < y.max goto 12
+11:      goto 14
+12:      t_3 = y.max
+13:      goto 15
+14:      t_3 = x.max
+15:      ans.max = t_3
+16:      return ans.max
+
+18: function gcdAlgorithm: 
+19:      t_5 = 0
+20:      if a.gcdAlgorithm == t_5 goto 22
+21:      goto 24
+22:      return b.gcdAlgorithm
+23:      goto 29
+24:      t_6 = b.gcdAlgorithm % a.gcdAlgorithm
+25:      param t_6
+26:      param a.gcdAlgorithm
+27:      t_7 = call gcdAlgorithm, 2
+28:      return t_7
+
+30: function guessing_game: 
+31:      t_8 = 1
+32:      count.guessing_game = t_8
+33:      param a.guessing_game
+34:      param b.guessing_game
+35:      t_9 = call min, 2
+36:      min_num.guessing_game = t_9
+37:      param a.guessing_game
+38:      param b.guessing_game
+39:      t_10 = call max, 2
+40:      max_num.guessing_game = t_10
+41:      param min_num.guessing_game
+42:      param max_num.guessing_game
+43:      t_11 = call gcdAlgorithm, 2
+44:      gcd.guessing_game = t_11
+45:      t_12 = min_num.guessing_game + gcd.guessing_game
+46:      guess.guessing_game = t_12
+47:      t_13 = "Guess a number between "
+48:      param t_13
+49:      t_14 = call printStr, 1
+50:      param min_num.guessing_game
+51:      t_15 = call printInt, 1
+52:      t_16 = " and "
+53:      param t_16
+54:      t_17 = call printStr, 1
+55:      param max_num.guessing_game
+56:      t_18 = call printInt, 1
+57:      t_19 = ":\n"
+58:      param t_19
+59:      t_20 = call printStr, 1
+60:      t_21 = &user_input.guessing_game
+61:      param t_21
+62:      t_22 = call readInt, 1
+
+63: Label guessing_game$WHILE$0: 
+64:      if user_input.guessing_game != guess.guessing_game goto 66
+65:      goto 86
+66:      if user_input.guessing_game < guess.guessing_game goto 68
+67:      goto 76
+
+68: Label guessing_game$WHILE$0$WHILE$1: 
+69:      t_23 = "Too low! Guess again:\n"
+70:      param t_23
+71:      t_24 = call printStr, 1
+72:      t_25 = &user_input.guessing_game
+73:      param t_25
+74:      t_26 = call readInt, 1
+75:      goto 83
+
+76: Label guessing_game$WHILE$0$WHILE$2: 
+77:      t_27 = "Too high! Guess again:\n"
+78:      param t_27
+79:      t_28 = call printStr, 1
+80:      t_29 = &user_input.guessing_game
+81:      param t_29
+82:      t_30 = call readInt, 1
+83:      t_31 = count.guessing_game
+84:      count.guessing_game = count.guessing_game + 1
+85:      goto 64
+86:      return count.guessing_game
+
+88: function main: 
+89:      t_32 = "\nEnter a number(Lower Bound): "
+90:      param t_32
+91:      t_33 = call printStr, 1
+92:      t_34 = &x.main
+93:      param t_34
+94:      t_35 = call readInt, 1
+95:      t_36 = "\nEnter a number(Upper Bound): "
+96:      param t_36
+97:      t_37 = call printStr, 1
+98:      t_38 = &y.main
+99:      param t_38
+100:      t_39 = call readInt, 1
+101:      param x.main
+102:      param y.main
+103:      t_40 = call guessing_game, 2
+104:      attempts.main = t_40
+105:      t_41 = "You guessed the number in "
+106:      param t_41
+107:      t_42 = call printStr, 1
+108:      param attempts.main
+109:      t_43 = call printInt, 1
+110:      t_44 = " attempt(s)!\n"
+111:      param t_44
+112:      t_45 = call printStr, 1
+113:      t_46 = 0
+114:      return t_46
+======================================================================================================================================================

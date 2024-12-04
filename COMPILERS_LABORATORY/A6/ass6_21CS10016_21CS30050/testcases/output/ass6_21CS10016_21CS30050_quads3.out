@@ -1,0 +1,641 @@
+All functions
+13
+printStr
+printInt
+readInt
+printFlt
+readFlt
+min
+max
+min_3
+max_3
+max_4
+min_4
+absolute_val
+main
+
+SYMBOL TABLES:
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: Global                                    Parent Symbol Table: NULL
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+printStr                    |   function              |   0             |   0             |                      |   printStr
+printInt                    |   function              |   0             |   0             |                      |   printInt
+readInt                     |   function              |   0             |   0             |                      |   readInt
+printFlt                    |   function              |   0             |   0             |                      |   printFlt
+readFlt                     |   function              |   0             |   0             |                      |   readFlt
+min                         |   function              |   0             |   0             |                      |   min
+max                         |   function              |   0             |   0             |                      |   max
+min_3                       |   function              |   0             |   0             |                      |   min_3
+max_3                       |   function              |   0             |   0             |                      |   max_3
+max_4                       |   function              |   0             |   0             |                      |   max_4
+min_4                       |   function              |   0             |   0             |                      |   min_4
+absolute_val                |   function              |   0             |   0             |                      |   absolute_val
+main                        |   function              |   0             |   0             |                      |   main
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: printStr                                  Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+p.printStr                  |   ptr(char)             |   8             |   0             |                      |   null
+return                      |   int                   |   4             |   8             |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: printInt                                  Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+n.printInt                  |   int                   |   4             |   0             |                      |   null
+return                      |   int                   |   4             |   4             |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: readInt                                   Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+eP.readInt                  |   ptr(int)              |   8             |   0             |                      |   null
+return                      |   int                   |   4             |   8             |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: printFlt                                  Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+n.printFlt                  |   float                 |   4             |   0             |                      |   null
+return                      |   int                   |   4             |   4             |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: readFlt                                   Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+eP.readFlt                  |   ptr(float)            |   8             |   0             |                      |   null
+return                      |   int                   |   4             |   8             |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: min                                       Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+x.min                       |   int                   |   4             |   0             |                      |   null
+y.min                       |   int                   |   4             |   4             |                      |   null
+return                      |   int                   |   4             |   8             |                      |   null
+ans.min                     |   int                   |   4             |   12            |                      |   null
+t_1                         |   int                   |   4             |   16            |                      |   null
+t_2                         |   int                   |   4             |   20            |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: max                                       Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+x.max                       |   int                   |   4             |   0             |                      |   null
+y.max                       |   int                   |   4             |   4             |                      |   null
+return                      |   int                   |   4             |   8             |                      |   null
+ans.max                     |   int                   |   4             |   12            |                      |   null
+t_3                         |   int                   |   4             |   16            |                      |   null
+t_4                         |   int                   |   4             |   20            |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: min_3                                     Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+x.min_3                     |   int                   |   4             |   0             |                      |   null
+y.min_3                     |   int                   |   4             |   4             |                      |   null
+z.min_3                     |   int                   |   4             |   8             |                      |   null
+return                      |   int                   |   4             |   12            |                      |   null
+ans.min_3                   |   int                   |   4             |   16            |                      |   null
+t_5                         |   int                   |   4             |   20            |                      |   null
+t_6                         |   int                   |   4             |   24            |                      |   null
+t_7                         |   int                   |   4             |   28            |                      |   null
+t_8                         |   int                   |   4             |   32            |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: max_3                                     Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+x.max_3                     |   int                   |   4             |   0             |                      |   null
+y.max_3                     |   int                   |   4             |   4             |                      |   null
+z.max_3                     |   int                   |   4             |   8             |                      |   null
+return                      |   int                   |   4             |   12            |                      |   null
+ans.max_3                   |   int                   |   4             |   16            |                      |   null
+t_9                         |   int                   |   4             |   20            |                      |   null
+t_10                        |   int                   |   4             |   24            |                      |   null
+t_11                        |   int                   |   4             |   28            |                      |   null
+t_12                        |   int                   |   4             |   32            |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: max_4                                     Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+x.max_4                     |   int                   |   4             |   0             |                      |   null
+y.max_4                     |   int                   |   4             |   4             |                      |   null
+z.max_4                     |   int                   |   4             |   8             |                      |   null
+w.max_4                     |   int                   |   4             |   12            |                      |   null
+return                      |   int                   |   4             |   16            |                      |   null
+ans.max_4                   |   int                   |   4             |   20            |                      |   null
+t_13                        |   int                   |   4             |   24            |                      |   null
+t_14                        |   int                   |   4             |   28            |                      |   null
+t_15                        |   int                   |   4             |   32            |                      |   null
+t_16                        |   int                   |   4             |   36            |                      |   null
+t_17                        |   int                   |   4             |   40            |                      |   null
+t_18                        |   int                   |   4             |   44            |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: min_4                                     Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+x.min_4                     |   int                   |   4             |   0             |                      |   null
+y.min_4                     |   int                   |   4             |   4             |                      |   null
+z.min_4                     |   int                   |   4             |   8             |                      |   null
+w.min_4                     |   int                   |   4             |   12            |                      |   null
+return                      |   int                   |   4             |   16            |                      |   null
+ans.min_4                   |   int                   |   4             |   20            |                      |   null
+t_19                        |   int                   |   4             |   24            |                      |   null
+t_20                        |   int                   |   4             |   28            |                      |   null
+t_21                        |   int                   |   4             |   32            |                      |   null
+t_22                        |   int                   |   4             |   36            |                      |   null
+t_23                        |   int                   |   4             |   40            |                      |   null
+t_24                        |   int                   |   4             |   44            |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: absolute_val                              Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+x.absolute_val              |   int                   |   4             |   0             |                      |   null
+return                      |   int                   |   4             |   4             |                      |   null
+t_25                        |   int                   |   4             |   8             |   0                  |   null
+t_26                        |   int                   |   4             |   12            |                      |   null
+======================================================================================================================================================
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Symbol Table: main                                      Parent Symbol Table: Global
+======================================================================================================================================================
+Name                        |   Type                  |   Size          |   Offset        |   Initial Value      |   Nested Table
+return                      |   int                   |   4             |   0             |                      |   null
+x.main                      |   int                   |   4             |   4             |   729                |   null
+t_27                        |   int                   |   4             |   8             |   729                |   null
+y.main                      |   int                   |   4             |   12            |   -1296              |   null
+t_28                        |   int                   |   4             |   16            |   -1296              |   null
+z.main                      |   int                   |   4             |   20            |   1000               |   null
+t_29                        |   int                   |   4             |   24            |   1000               |   null
+t_30                        |   ptr(char)             |   8             |   28            |   "\nTesting the absolute_val function\n" |   null
+t_31                        |   int                   |   4             |   36            |                      |   null
+ans1.main                   |   int                   |   4             |   40            |                      |   null
+t_32                        |   int                   |   4             |   44            |                      |   null
+t_33                        |   ptr(char)             |   8             |   48            |   "absolute_val("    |   null
+t_34                        |   int                   |   4             |   56            |                      |   null
+t_35                        |   int                   |   4             |   60            |                      |   null
+t_36                        |   ptr(char)             |   8             |   64            |   ") = "             |   null
+t_37                        |   int                   |   4             |   72            |                      |   null
+t_38                        |   int                   |   4             |   76            |                      |   null
+t_39                        |   ptr(char)             |   8             |   80            |   "\n"               |   null
+t_40                        |   int                   |   4             |   88            |                      |   null
+ans2.main                   |   int                   |   4             |   92            |                      |   null
+t_41                        |   int                   |   4             |   96            |                      |   null
+t_42                        |   ptr(char)             |   8             |   100           |   "absolute_val("    |   null
+t_43                        |   int                   |   4             |   108           |                      |   null
+t_44                        |   int                   |   4             |   112           |                      |   null
+t_45                        |   ptr(char)             |   8             |   116           |   ") = "             |   null
+t_46                        |   int                   |   4             |   124           |                      |   null
+t_47                        |   int                   |   4             |   128           |                      |   null
+t_48                        |   ptr(char)             |   8             |   132           |   "\n"               |   null
+t_49                        |   int                   |   4             |   140           |                      |   null
+ans3.main                   |   int                   |   4             |   144           |                      |   null
+t_50                        |   int                   |   4             |   148           |                      |   null
+t_51                        |   ptr(char)             |   8             |   152           |   "Testing the min function\n" |   null
+t_52                        |   int                   |   4             |   160           |                      |   null
+t_53                        |   ptr(char)             |   8             |   164           |   "Min("             |   null
+t_54                        |   int                   |   4             |   172           |                      |   null
+t_55                        |   int                   |   4             |   176           |                      |   null
+t_56                        |   ptr(char)             |   8             |   180           |   ", "               |   null
+t_57                        |   int                   |   4             |   188           |                      |   null
+t_58                        |   int                   |   4             |   192           |                      |   null
+t_59                        |   ptr(char)             |   8             |   196           |   ") = "             |   null
+t_60                        |   int                   |   4             |   204           |                      |   null
+t_61                        |   int                   |   4             |   208           |                      |   null
+t_62                        |   ptr(char)             |   8             |   212           |   "\n"               |   null
+t_63                        |   int                   |   4             |   220           |                      |   null
+ans4.main                   |   int                   |   4             |   224           |                      |   null
+t_64                        |   int                   |   4             |   228           |                      |   null
+t_65                        |   ptr(char)             |   8             |   232           |   "Testing the max function\n" |   null
+t_66                        |   int                   |   4             |   240           |                      |   null
+t_67                        |   ptr(char)             |   8             |   244           |   "Max("             |   null
+t_68                        |   int                   |   4             |   252           |                      |   null
+t_69                        |   int                   |   4             |   256           |                      |   null
+t_70                        |   ptr(char)             |   8             |   260           |   ", "               |   null
+t_71                        |   int                   |   4             |   268           |                      |   null
+t_72                        |   int                   |   4             |   272           |                      |   null
+t_73                        |   ptr(char)             |   8             |   276           |   ") = "             |   null
+t_74                        |   int                   |   4             |   284           |                      |   null
+t_75                        |   int                   |   4             |   288           |                      |   null
+t_76                        |   ptr(char)             |   8             |   292           |   "\n"               |   null
+t_77                        |   int                   |   4             |   300           |                      |   null
+ans5.main                   |   int                   |   4             |   304           |                      |   null
+t_78                        |   int                   |   4             |   308           |                      |   null
+t_79                        |   ptr(char)             |   8             |   312           |   "Testing the min_3 function\n" |   null
+t_80                        |   int                   |   4             |   320           |                      |   null
+t_81                        |   ptr(char)             |   8             |   324           |   "Min_3("           |   null
+t_82                        |   int                   |   4             |   332           |                      |   null
+t_83                        |   int                   |   4             |   336           |                      |   null
+t_84                        |   ptr(char)             |   8             |   340           |   ", "               |   null
+t_85                        |   int                   |   4             |   348           |                      |   null
+t_86                        |   int                   |   4             |   352           |                      |   null
+t_87                        |   ptr(char)             |   8             |   356           |   ", "               |   null
+t_88                        |   int                   |   4             |   364           |                      |   null
+t_89                        |   int                   |   4             |   368           |                      |   null
+t_90                        |   ptr(char)             |   8             |   372           |   ") = "             |   null
+t_91                        |   int                   |   4             |   380           |                      |   null
+t_92                        |   int                   |   4             |   384           |                      |   null
+t_93                        |   ptr(char)             |   8             |   388           |   "\n"               |   null
+t_94                        |   int                   |   4             |   396           |                      |   null
+ans6.main                   |   int                   |   4             |   400           |                      |   null
+t_95                        |   int                   |   4             |   404           |                      |   null
+t_96                        |   ptr(char)             |   8             |   408           |   "Testing the max_3 function\n" |   null
+t_97                        |   int                   |   4             |   416           |                      |   null
+t_98                        |   ptr(char)             |   8             |   420           |   "Max_3("           |   null
+t_99                        |   int                   |   4             |   428           |                      |   null
+t_100                       |   int                   |   4             |   432           |                      |   null
+t_101                       |   ptr(char)             |   8             |   436           |   ", "               |   null
+t_102                       |   int                   |   4             |   444           |                      |   null
+t_103                       |   int                   |   4             |   448           |                      |   null
+t_104                       |   ptr(char)             |   8             |   452           |   ", "               |   null
+t_105                       |   int                   |   4             |   460           |                      |   null
+t_106                       |   int                   |   4             |   464           |                      |   null
+t_107                       |   ptr(char)             |   8             |   468           |   ") = "             |   null
+t_108                       |   int                   |   4             |   476           |                      |   null
+t_109                       |   int                   |   4             |   480           |                      |   null
+t_110                       |   ptr(char)             |   8             |   484           |   "\n"               |   null
+t_111                       |   int                   |   4             |   492           |                      |   null
+a.main                      |   int                   |   4             |   496           |                      |   null
+t_112                       |   int                   |   4             |   500           |   313                |   null
+t_113                       |   int                   |   4             |   504           |                      |   null
+ans7.main                   |   int                   |   4             |   508           |                      |   null
+t_114                       |   int                   |   4             |   512           |                      |   null
+t_115                       |   ptr(char)             |   8             |   516           |   "Testing the min_4 function\n" |   null
+t_116                       |   int                   |   4             |   524           |                      |   null
+t_117                       |   ptr(char)             |   8             |   528           |   "Min_4("           |   null
+t_118                       |   int                   |   4             |   536           |                      |   null
+t_119                       |   int                   |   4             |   540           |                      |   null
+t_120                       |   ptr(char)             |   8             |   544           |   ", "               |   null
+t_121                       |   int                   |   4             |   552           |                      |   null
+t_122                       |   int                   |   4             |   556           |                      |   null
+t_123                       |   ptr(char)             |   8             |   560           |   ", "               |   null
+t_124                       |   int                   |   4             |   568           |                      |   null
+t_125                       |   int                   |   4             |   572           |                      |   null
+t_126                       |   ptr(char)             |   8             |   576           |   ", "               |   null
+t_127                       |   int                   |   4             |   584           |                      |   null
+t_128                       |   int                   |   4             |   588           |                      |   null
+t_129                       |   ptr(char)             |   8             |   592           |   ") = "             |   null
+t_130                       |   int                   |   4             |   600           |                      |   null
+t_131                       |   int                   |   4             |   604           |                      |   null
+t_132                       |   ptr(char)             |   8             |   608           |   "\n"               |   null
+t_133                       |   int                   |   4             |   616           |                      |   null
+ans8.main                   |   int                   |   4             |   620           |                      |   null
+t_134                       |   int                   |   4             |   624           |                      |   null
+t_135                       |   ptr(char)             |   8             |   628           |   "Testing the max_4 function\n" |   null
+t_136                       |   int                   |   4             |   636           |                      |   null
+t_137                       |   ptr(char)             |   8             |   640           |   "Max_4("           |   null
+t_138                       |   int                   |   4             |   648           |                      |   null
+t_139                       |   int                   |   4             |   652           |                      |   null
+t_140                       |   ptr(char)             |   8             |   656           |   ", "               |   null
+t_141                       |   int                   |   4             |   664           |                      |   null
+t_142                       |   int                   |   4             |   668           |                      |   null
+t_143                       |   ptr(char)             |   8             |   672           |   ", "               |   null
+t_144                       |   int                   |   4             |   680           |                      |   null
+t_145                       |   int                   |   4             |   684           |                      |   null
+t_146                       |   ptr(char)             |   8             |   688           |   ", "               |   null
+t_147                       |   int                   |   4             |   696           |                      |   null
+t_148                       |   int                   |   4             |   700           |                      |   null
+t_149                       |   ptr(char)             |   8             |   704           |   ") = "             |   null
+t_150                       |   int                   |   4             |   712           |                      |   null
+t_151                       |   int                   |   4             |   716           |                      |   null
+t_152                       |   ptr(char)             |   8             |   720           |   "\n"               |   null
+t_153                       |   int                   |   4             |   728           |                      |   null
+t_154                       |   int                   |   4             |   732           |   0                  |   null
+======================================================================================================================================================
+
+
+///////////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+THREE ADDRESS CODE (TAC): 
+======================================================================================================================================================
+
+0: function min: 
+1:      if x.min > y.min goto 3
+2:      goto 5
+3:      t_1 = y.min
+4:      goto 6
+5:      t_1 = x.min
+6:      ans.min = t_1
+7:      return ans.min
+
+9: function max: 
+10:      if x.max < y.max goto 12
+11:      goto 14
+12:      t_3 = y.max
+13:      goto 15
+14:      t_3 = x.max
+15:      ans.max = t_3
+16:      return ans.max
+
+18: function min_3: 
+19:      param x.min_3
+20:      param y.min_3
+21:      t_5 = call min, 2
+22:      ans.min_3 = t_5
+23:      param ans.min_3
+24:      param z.min_3
+25:      t_7 = call min, 2
+26:      ans.min_3 = t_7
+27:      return ans.min_3
+
+29: function max_3: 
+30:      param x.max_3
+31:      param y.max_3
+32:      t_9 = call max, 2
+33:      ans.max_3 = t_9
+34:      param ans.max_3
+35:      param z.max_3
+36:      t_11 = call max, 2
+37:      ans.max_3 = t_11
+38:      return ans.max_3
+
+40: function max_4: 
+41:      param x.max_4
+42:      param y.max_4
+43:      t_13 = call max, 2
+44:      ans.max_4 = t_13
+45:      param ans.max_4
+46:      param z.max_4
+47:      t_15 = call max, 2
+48:      ans.max_4 = t_15
+49:      param ans.max_4
+50:      param w.max_4
+51:      t_17 = call max, 2
+52:      ans.max_4 = t_17
+53:      return ans.max_4
+
+55: function min_4: 
+56:      param x.min_4
+57:      param y.min_4
+58:      t_19 = call min, 2
+59:      ans.min_4 = t_19
+60:      param ans.min_4
+61:      param z.min_4
+62:      t_21 = call min, 2
+63:      ans.min_4 = t_21
+64:      param ans.min_4
+65:      param w.min_4
+66:      t_23 = call min, 2
+67:      ans.min_4 = t_23
+68:      return ans.min_4
+
+70: function absolute_val: 
+71:      t_25 = 0
+72:      if x.absolute_val < t_25 goto 74
+73:      goto 77
+74:      t_26 = -x.absolute_val
+75:      return t_26
+76:      goto 78
+77:      return x.absolute_val
+
+79: function main: 
+80:      t_27 = 729
+81:      x.main = t_27
+82:      t_28 = -1296
+83:      y.main = t_28
+84:      t_29 = 1000
+85:      z.main = t_29
+86:      t_30 = "\nTesting the absolute_val function\n"
+87:      param t_30
+88:      t_31 = call printStr, 1
+89:      param x.main
+90:      t_32 = call absolute_val, 1
+91:      ans1.main = t_32
+92:      t_33 = "absolute_val("
+93:      param t_33
+94:      t_34 = call printStr, 1
+95:      param x.main
+96:      t_35 = call printInt, 1
+97:      t_36 = ") = "
+98:      param t_36
+99:      t_37 = call printStr, 1
+100:      param ans1.main
+101:      t_38 = call printInt, 1
+102:      t_39 = "\n"
+103:      param t_39
+104:      t_40 = call printStr, 1
+105:      param y.main
+106:      t_41 = call absolute_val, 1
+107:      ans2.main = t_41
+108:      t_42 = "absolute_val("
+109:      param t_42
+110:      t_43 = call printStr, 1
+111:      param y.main
+112:      t_44 = call printInt, 1
+113:      t_45 = ") = "
+114:      param t_45
+115:      t_46 = call printStr, 1
+116:      param ans2.main
+117:      t_47 = call printInt, 1
+118:      t_48 = "\n"
+119:      param t_48
+120:      t_49 = call printStr, 1
+121:      param x.main
+122:      param y.main
+123:      t_50 = call min, 2
+124:      ans3.main = t_50
+125:      t_51 = "Testing the min function\n"
+126:      param t_51
+127:      t_52 = call printStr, 1
+128:      t_53 = "Min("
+129:      param t_53
+130:      t_54 = call printStr, 1
+131:      param x.main
+132:      t_55 = call printInt, 1
+133:      t_56 = ", "
+134:      param t_56
+135:      t_57 = call printStr, 1
+136:      param y.main
+137:      t_58 = call printInt, 1
+138:      t_59 = ") = "
+139:      param t_59
+140:      t_60 = call printStr, 1
+141:      param ans3.main
+142:      t_61 = call printInt, 1
+143:      t_62 = "\n"
+144:      param t_62
+145:      t_63 = call printStr, 1
+146:      param x.main
+147:      param y.main
+148:      t_64 = call max, 2
+149:      ans4.main = t_64
+150:      t_65 = "Testing the max function\n"
+151:      param t_65
+152:      t_66 = call printStr, 1
+153:      t_67 = "Max("
+154:      param t_67
+155:      t_68 = call printStr, 1
+156:      param x.main
+157:      t_69 = call printInt, 1
+158:      t_70 = ", "
+159:      param t_70
+160:      t_71 = call printStr, 1
+161:      param y.main
+162:      t_72 = call printInt, 1
+163:      t_73 = ") = "
+164:      param t_73
+165:      t_74 = call printStr, 1
+166:      param ans4.main
+167:      t_75 = call printInt, 1
+168:      t_76 = "\n"
+169:      param t_76
+170:      t_77 = call printStr, 1
+171:      param x.main
+172:      param y.main
+173:      param z.main
+174:      t_78 = call min_3, 3
+175:      ans5.main = t_78
+176:      t_79 = "Testing the min_3 function\n"
+177:      param t_79
+178:      t_80 = call printStr, 1
+179:      t_81 = "Min_3("
+180:      param t_81
+181:      t_82 = call printStr, 1
+182:      param x.main
+183:      t_83 = call printInt, 1
+184:      t_84 = ", "
+185:      param t_84
+186:      t_85 = call printStr, 1
+187:      param y.main
+188:      t_86 = call printInt, 1
+189:      t_87 = ", "
+190:      param t_87
+191:      t_88 = call printStr, 1
+192:      param z.main
+193:      t_89 = call printInt, 1
+194:      t_90 = ") = "
+195:      param t_90
+196:      t_91 = call printStr, 1
+197:      param ans5.main
+198:      t_92 = call printInt, 1
+199:      t_93 = "\n"
+200:      param t_93
+201:      t_94 = call printStr, 1
+202:      param x.main
+203:      param y.main
+204:      param z.main
+205:      t_95 = call max_3, 3
+206:      ans6.main = t_95
+207:      t_96 = "Testing the max_3 function\n"
+208:      param t_96
+209:      t_97 = call printStr, 1
+210:      t_98 = "Max_3("
+211:      param t_98
+212:      t_99 = call printStr, 1
+213:      param x.main
+214:      t_100 = call printInt, 1
+215:      t_101 = ", "
+216:      param t_101
+217:      t_102 = call printStr, 1
+218:      param y.main
+219:      t_103 = call printInt, 1
+220:      t_104 = ", "
+221:      param t_104
+222:      t_105 = call printStr, 1
+223:      param z.main
+224:      t_106 = call printInt, 1
+225:      t_107 = ") = "
+226:      param t_107
+227:      t_108 = call printStr, 1
+228:      param ans6.main
+229:      t_109 = call printInt, 1
+230:      t_110 = "\n"
+231:      param t_110
+232:      t_111 = call printStr, 1
+233:      t_112 = 313
+234:      a.main = t_112
+235:      param x.main
+236:      param y.main
+237:      param z.main
+238:      param a.main
+239:      t_114 = call min_4, 4
+240:      ans7.main = t_114
+241:      t_115 = "Testing the min_4 function\n"
+242:      param t_115
+243:      t_116 = call printStr, 1
+244:      t_117 = "Min_4("
+245:      param t_117
+246:      t_118 = call printStr, 1
+247:      param x.main
+248:      t_119 = call printInt, 1
+249:      t_120 = ", "
+250:      param t_120
+251:      t_121 = call printStr, 1
+252:      param y.main
+253:      t_122 = call printInt, 1
+254:      t_123 = ", "
+255:      param t_123
+256:      t_124 = call printStr, 1
+257:      param z.main
+258:      t_125 = call printInt, 1
+259:      t_126 = ", "
+260:      param t_126
+261:      t_127 = call printStr, 1
+262:      param a.main
+263:      t_128 = call printInt, 1
+264:      t_129 = ") = "
+265:      param t_129
+266:      t_130 = call printStr, 1
+267:      param ans7.main
+268:      t_131 = call printInt, 1
+269:      t_132 = "\n"
+270:      param t_132
+271:      t_133 = call printStr, 1
+272:      param x.main
+273:      param y.main
+274:      param z.main
+275:      param a.main
+276:      t_134 = call max_4, 4
+277:      ans8.main = t_134
+278:      t_135 = "Testing the max_4 function\n"
+279:      param t_135
+280:      t_136 = call printStr, 1
+281:      t_137 = "Max_4("
+282:      param t_137
+283:      t_138 = call printStr, 1
+284:      param x.main
+285:      t_139 = call printInt, 1
+286:      t_140 = ", "
+287:      param t_140
+288:      t_141 = call printStr, 1
+289:      param y.main
+290:      t_142 = call printInt, 1
+291:      t_143 = ", "
+292:      param t_143
+293:      t_144 = call printStr, 1
+294:      param z.main
+295:      t_145 = call printInt, 1
+296:      t_146 = ", "
+297:      param t_146
+298:      t_147 = call printStr, 1
+299:      param a.main
+300:      t_148 = call printInt, 1
+301:      t_149 = ") = "
+302:      param t_149
+303:      t_150 = call printStr, 1
+304:      param ans8.main
+305:      t_151 = call printInt, 1
+306:      t_152 = "\n"
+307:      param t_152
+308:      t_153 = call printStr, 1
+309:      t_154 = 0
+310:      return t_154
+======================================================================================================================================================
