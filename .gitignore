@@ -48,3 +48,9 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+
+.DS_Store
+bin.c 
+bin.s
+bin.cpp
+.vscode
